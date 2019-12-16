@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions below cache the inverse of a matrix in order to avoid 
+## costly computation of a matrix. This is done by caching the inverse 
+## and then checking whether this cached inverse is created or not, if not
+## the inverse is take. 
 
 ## The makeCacheMatrix creates a list which contains a function to do the following: 
   ## 1. Set the value of the matrix   
